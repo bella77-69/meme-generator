@@ -1,0 +1,23 @@
+.meme {
+    margin: 0, auto;
+
+    &-container {
+    margin: 1rem;
+    }
+  
+    &-button {
+    margin: 1rem;
+    display: flex;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, rgb(94, 109, 238) 1.14%, #4254f3 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+    &-image {
+    max-width: 50%;
+    border-radius: .9375rem;
+    }
+}
+
