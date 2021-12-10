@@ -3,10 +3,13 @@
 
     &-container {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
     }
   
     &-button {
     margin: 1rem;
+    width: 25%;
     display: flex;
     border-radius: 5px;
     background: linear-gradient(90.41deg, rgb(94, 109, 238) 1.14%, #4254f3 100%);
